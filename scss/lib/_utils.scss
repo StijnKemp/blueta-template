@@ -1,0 +1,38 @@
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.col-split {
+  grid-template-columns: 1fr 1fr;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.bg-light-500 {
+  background-color: _palette(light-500);
+  color: _palette(dark);
+}
+
+.bg-primary {
+  background-color: _palette(primary);
+  color: _palette(light);
+
+  a {
+    color: _palette(light);
+  }
+}
+
+.bg-secondary {
+  background-color: _palette(secondary-500);
+  color: _palette(light);
+
+  a {
+    color: _palette(light);
+  }
+}

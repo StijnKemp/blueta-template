@@ -1,0 +1,18 @@
+.main-navigation {
+  ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      padding: 1em 1em;
+      font-size: 0.9em;
+
+      .logo {
+        height: 30px;
+      }
+    }
+  }
+}

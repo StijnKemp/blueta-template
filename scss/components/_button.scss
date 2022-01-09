@@ -1,0 +1,36 @@
+%button {
+  display: inline-block;
+  padding: 0.5em 2em;
+  font-weight: 500;
+
+  i {
+    margin-left: 1em;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@mixin button-colors($bg, $fg) {
+  background-color: $bg;
+  color: $fg;
+
+  &:hover {
+    background-color: darken($color: $bg, $amount: 5%);
+  }
+
+  &:active {
+    background-color: darken($color: $bg, $amount: 10%);
+  }
+}
+
+.button-primary {
+  @extend %button;
+  @include button-colors(_palette(primary-500), _palette(light));
+}
+
+.button-secondary {
+  @extend %button;
+  @include button-colors(_palette(secondary-600), _palette(light));
+}

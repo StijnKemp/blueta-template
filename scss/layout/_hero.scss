@@ -1,0 +1,15 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .column {
+    padding: 2em 4em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  h2 {
+    font-weight: 500;
+  }
+}
