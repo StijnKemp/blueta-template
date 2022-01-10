@@ -1,0 +1,38 @@
+footer {
+  padding: 2em 0;
+  margin-bottom: 2em;
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .column {
+      font-size: 0.9em;
+
+      h2 {
+        font-size: 1.2em;
+        margin-bottom: 0.7em;
+      }
+    }
+  }
+
+  .contact {
+    color: _palette(dark-300);
+
+    i {
+      color: _palette(primary-500);
+    }
+
+    td {
+      padding-right: 0.8em;
+    }
+  }
+
+  .socials {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  }
+}

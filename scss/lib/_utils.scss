@@ -10,6 +10,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.col-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .ml-auto {
   margin-left: auto !important;
 }
@@ -28,6 +32,15 @@
   }
 }
 
+.bg-primary-500 {
+  background-color: _palette(primary-500);
+  color: _palette(light);
+
+  a {
+    color: _palette(light);
+  }
+}
+
 .bg-secondary {
   background-color: _palette(secondary-500);
   color: _palette(light);
@@ -35,4 +48,21 @@
   a {
     color: _palette(light);
   }
+}
+
+.bg-secondary-600 {
+  background-color: _palette(secondary-600);
+  color: _palette(light);
+
+  a {
+    color: _palette(light);
+  }
+}
+
+.text-primary {
+  color: _palette(primary);
+}
+
+.text-light-500 {
+  color: _palette(light-500);
 }

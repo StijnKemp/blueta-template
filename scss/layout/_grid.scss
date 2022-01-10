@@ -1,0 +1,41 @@
+.expertise-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+
+  .column {
+    background-color: _palette(light-500);
+    padding: 2em 3em;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      height: auto;
+    }
+  }
+}
+
+.expertise-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+
+  .column {
+    .img-container {
+      background-color: _palette(light-500);
+      padding: 2em 3em;
+    }
+
+    .info-container {
+      padding: 2em 0;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      height: auto;
+    }
+  }
+}
