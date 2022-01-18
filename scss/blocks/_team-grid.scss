@@ -1,0 +1,42 @@
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 2em;
+
+  &__item {
+    &__image {
+      display: block;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+
+    &__title {
+      margin-bottom: 0;
+    }
+
+    &__subtitle {
+      color: _palette(primary);
+    }
+
+    &__text {
+      font-size: 0.9em;
+    }
+
+    &__social-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+
+    &__social-list__item {
+      margin-right: 0.5em;
+
+      i {
+        background-color: _palette(primary) !important;
+        color: _palette(light);
+        padding: 0.4em;
+      }
+    }
+  }
+}

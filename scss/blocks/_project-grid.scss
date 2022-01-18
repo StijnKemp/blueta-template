@@ -1,0 +1,44 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2em;
+  row-gap: 6em;
+
+  &__item {
+    grid-column: span 2;
+
+    &__image {
+      display: block;
+      margin: 0 auto;
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+  }
+
+  &__testimonial {
+    @include bg($bg: _palette(light-500), $fg: _palette(dark));
+    padding: 2em;
+    text-align: center;
+
+    &__image {
+      width: 50%;
+      border-radius: 50%;
+    }
+
+    &__name {
+      margin-bottom: 0;
+    }
+
+    &__title {
+      color: _palette(primary);
+    }
+
+    &__text {
+      font-size: 0.9em;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@mixin bg($bg, $fg) {
+  background-color: $bg;
+  color: $fg;
+
+  a {
+    color: $fg;
+  }
+}

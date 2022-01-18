@@ -1,0 +1,22 @@
+.testimonials {
+  background-color: _palette(light-500);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  &__item {
+    padding: 3em 4em 2em 4em;
+    text-align: center;
+
+    img {
+      width: 70%;
+    }
+
+    h4 {
+      color: _palette(primary);
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+  }
+}

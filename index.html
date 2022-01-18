@@ -9,26 +9,29 @@
       src="https://kit.fontawesome.com/5d07182e45.js"
       crossorigin="anonymous"
     ></script>
-    <title>Blue T&A - Template 1</title>
+    <title>Blue T&A - Home</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <nav class="main-navigation d-flex">
-          <ul>
-            <li>
-              <a href="#">
-                <img class="logo" src="./img/BlueTA-clean.png" alt="" />
+      <header class="page-header">
+        <nav class="main-navigation">
+          <ul class="main-navigation__list">
+            <li class="main-navigation__list__item">
+              <a href="./">
+                <img class="main-navigation__list__item__logo" src="./img/BlueTA-clean.png" alt=""/>
               </a>
             </li>
-            <li><a href="#">Over ons</a></li>
-            <li><a href="#">Trainingen</a></li>
-            <li><a href="#">Projecten</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Team</a></li>
+            <li class="main-navigation__list__item"><a href="./over-ons.html">Over ons</a></li>
+            <li class="main-navigation__list__item"><a href="./trainingen.html">Trainingen</a></li>
+            <li class="main-navigation__list__item"><a href="./projecten.html">Projecten</a></li>
+            <li class="main-navigation__list__item"><a href="./blog.html">Blog</a></li>
+            <li class="main-navigation__list__item"><a href="./team.html">Team</a></li>
           </ul>
-          <ul class="ml-auto">
-            <li>
+          <ul class="main-navigation__list ml-auto">
+            <li class="main-navigation__list__item--phone">
+              <i class="fas fa-phone"></i><a href="tel:+316123456">06 123 456</a>
+            </li>
+            <li class="main-navigation__list__item">
               <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </li>
           </ul>
@@ -36,83 +39,75 @@
       </header>
       <section>
         <div class="hero">
-          <div class="column bg-primary text-light">
+          <div class="hero__image" style="background-image: url('./img/2.jpg')"></div>
+          <div class="hero__content">
             <h2>Testen, Agile & Automation</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus maiores atque temporibus velit ducimus hic dolore
               unde sequi eos ut.
             </p>
-            <div class="cta">
-              <a class="cta button-primary" href="#"
-                >Lees meer <i class="fas fa-angle-right"></i
-              ></a>
-            </div>
-          </div>
-          <div
-            class="column"
-            style="background-image: url('./img/2.jpg')"
-          ></div>
-          <div
-            class="column"
-            style="background-image: url('./img/3.jpg')"
-          ></div>
-          <div class="column bg-secondary">
-            <h2>Trainingen & Workshops</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus maiores atque temporibus velit ducimus hic dolore
-              unde sequi eos ut.
-            </p>
-            <div class="cta">
-              <a class="cta button-secondary" href="#"
-                >Inschrijven <i class="fas fa-angle-right"></i
-              ></a>
+            <div>
+              <a class="button-primary" href="#">
+                Lees meer <i class="fas fa-angle-right"></i>
+              </a>
             </div>
           </div>
         </div>
       </section>
       <section>
         <h2>Onze expertises</h2>
-        <div class="expertise-grid">
-          <div class="column">
-            <img src="./img/scrum.png" alt="" />
-            <h3>Scrum</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
-              molestiae?
-            </p>
-            <a class="cta button-primary" href="#"
-              >Lees meer <i class="fas fa-angle-right"></i
-            ></a>
+        <div class="expertises">
+          <div class="card">
+            <div class="card__image-container">
+              <img src="./img/scrum.png" alt="" />
+            </div>
+            <div class="card__content">
+              <h3>Scrum</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
+                molestiae?
+              </p>
+              <a class="button-secondary" href="#">
+                Lees meer <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
           </div>
-          <div class="column">
-            <img src="./img/scrum.png" alt="" />
-            <h3>Scrum</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
-              molestiae?
-            </p>
-            <a class="cta button-primary" href="#"
-              >Lees meer <i class="fas fa-angle-right"></i
-            ></a>
+          <div class="card">
+            <div class="card__image-container">
+              <img src="./img/scrum.png" alt="" />
+            </div>
+            <div class="card__content">
+              <h3>Scrum</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
+                molestiae?
+              </p>
+              <a class="button-secondary" href="#">
+                Lees meer <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
           </div>
-          <div class="column">
-            <img src="./img/scrum.png" alt="" />
-            <h3>Scrum</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
-              molestiae?
-            </p>
-            <a class="cta button-primary" href="#"
-              >Lees meer <i class="fas fa-angle-right"></i
-            ></a>
+          <div class="card">
+            <div class="card__image-container">
+              <img src="./img/scrum.png" alt="" />
+            </div>
+            <div class="card__content">
+              <h3>Scrum</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
+                molestiae?
+              </p>
+              <a class="button-secondary" href="#">
+                Lees meer <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
           </div>
         </div>
       </section>
       <section>
         <div class="testimonials">
-          <div class="column">
+          <div class="testimonials__item">
             <img src="img/placeholder-logo-1.png" alt="" />
             <h3>John Doe</h3>
             <h4>Owner at company</h4>
@@ -123,7 +118,7 @@
               nihil eius eum autem!"
             </p>
           </div>
-          <div class="column">
+          <div class="testimonials__item">
             <img src="img/placeholder-logo-1.png" alt="" />
             <h3>John Doe</h3>
             <h4>Owner at company</h4>
@@ -134,7 +129,7 @@
               nihil eius eum autem!"
             </p>
           </div>
-          <div class="column">
+          <div class="testimonials__item">
             <img src="img/placeholder-logo-1.png" alt="" />
             <h3>John Doe</h3>
             <h4>Owner at company</h4>
@@ -147,8 +142,8 @@
           </div>
         </div>
       </section>
-            <hr />
-      <footer>
+      <hr />
+      <footer class="page-footer">
         <div class="grid">
           <div class="column contact">
             <h2>Blue T&A</h2>

@@ -1,17 +1,31 @@
 .main-navigation {
-  ul {
+  display: flex;
+  font-size: 0.9em;
+  padding: 1em 1em;
+
+  &__list {
     display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
     list-style: none;
 
-    li {
-      padding: 1em 1em;
-      font-size: 0.9em;
+    &__item {
+      &:not(:last-child) {
+        margin-right: 2em;
+      }
 
-      .logo {
+      &__logo {
         height: 30px;
+      }
+    }
+
+    &__item--phone {
+      margin-right: 2em;
+
+      i {
+        color: _palette(primary);
+        margin-right: 0.5em;
       }
     }
   }

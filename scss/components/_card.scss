@@ -1,0 +1,17 @@
+.card {
+  &__image-container {
+    background-color: _palette(light-500);
+    padding: 2em 3em;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      height: auto;
+    }
+  }
+
+  &__content {
+    padding: 2em 0;
+  }
+}

@@ -1,0 +1,12 @@
+.page-hero {
+  background-color: _palette(light-500);
+  padding: 2em 8em;
+  text-align: center;
+
+  &__title {
+    color: _palette(primary);
+  }
+
+  &__text {
+  }
+}

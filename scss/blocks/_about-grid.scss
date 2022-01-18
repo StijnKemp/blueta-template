@@ -1,0 +1,35 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+
+  > div {
+    padding: 2em 4em;
+  }
+
+  &__banner-primary {
+    @include bg($bg: _palette(primary), $fg: _palette(light));
+    grid-column: span 2;
+    padding: 2em 4em;
+  }
+
+  &__banner-secondary {
+    @include bg($bg: _palette(secondary-500), $fg: _palette(light));
+    grid-column: span 2;
+    padding: 2em 4em;
+  }
+
+  &__banner-light {
+    @include bg($bg: _palette(light-500), $fg: _palette(dark));
+    grid-column: span 2;
+    padding: 2em 4em;
+  }
+
+  &__column-secondary {
+    @include bg($bg: _palette(secondary-500), $fg: _palette(light));
+  }
+
+  &__column-light {
+    @include bg($bg: _palette(light-500), $fg: _palette(dark));
+  }
+}

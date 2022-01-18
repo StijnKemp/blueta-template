@@ -12,12 +12,23 @@
 @import "./layout/container";
 @import "./layout/navigation";
 @import "./layout/section";
-@import "./layout/hero";
-@import "./layout/grid";
-@import "./layout/testimonials";
-@import "./layout/contact";
 @import "./layout/footer";
+
+// Sections.
+@import "./sections/hero";
+@import "./sections/expertises";
+@import "./sections/testimonials";
+
+// Blocks.
+@import "./blocks/team-grid";
+@import "./blocks/page-hero";
+@import "./blocks/post-grid";
+@import "./blocks/event-list";
+@import "./blocks/about-grid";
+@import "./blocks/project-grid";
 
 // Components.
 @import "./components/button";
 @import "./components/icon";
+@import "./components/card";
+@import "./components/banner";

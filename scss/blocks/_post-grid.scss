@@ -1,0 +1,31 @@
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2em;
+  row-gap: 4em;
+
+  &__item {
+    &__image {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 1em;
+    }
+
+    &__title {
+      margin-bottom: 0;
+    }
+
+    &__meta {
+      color: _palette(dark-300);
+      font-size: 0.7em;
+    }
+
+    &__excerpt {
+      font-size: 0.95em;
+    }
+
+    &__cta {
+    }
+  }
+}
